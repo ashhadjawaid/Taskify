@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskify</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="eInput">
+                <input type="text" placeholder="Add a task">
+                <div class="submit">
+                    <button id="add_btn">Add <i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+            <div class="todo_list">
+                <div class="todo_content">
+                    <ul class="list">
+                        <!-- <li class="listed_item">Finish Porfolio</li>
+                        <li class="listed_item">Finish Porfolio</li>
+                        <li class="listed_item">Finish Porfolio</li> -->
+                    </ul>
+                    <div class="check">
+                        <i class="fa-solid fa-circle-check" id="check_btn"></i>
+                    </div>
+                    <div class="del">
+                        <div id="deleted_btn">Delete All Task</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="todo.js"></script>
+    <script src="tokens/firebase.js"></script>
+</body>
+</html>
